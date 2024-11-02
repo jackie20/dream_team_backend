@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/keanuarendze/Projects/Dream_Team_Assessment/Dream_Team_Assessment/Dream_Team_Assessment.csproj": {}
+    "/Users/keanuarendze/Projects/backend/dream_team_backend/Dream_Team_Assessment/Dream_Team_Assessment.csproj": {}
   },
   "projects": {
-    "/Users/keanuarendze/Projects/Dream_Team_Assessment/Dream_Team_Assessment/Dream_Team_Assessment.csproj": {
+    "/Users/keanuarendze/Projects/backend/dream_team_backend/Dream_Team_Assessment/Dream_Team_Assessment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/keanuarendze/Projects/Dream_Team_Assessment/Dream_Team_Assessment/Dream_Team_Assessment.csproj",
+        "projectUniqueName": "/Users/keanuarendze/Projects/backend/dream_team_backend/Dream_Team_Assessment/Dream_Team_Assessment.csproj",
         "projectName": "Dream_Team_Assessment",
-        "projectPath": "/Users/keanuarendze/Projects/Dream_Team_Assessment/Dream_Team_Assessment/Dream_Team_Assessment.csproj",
+        "projectPath": "/Users/keanuarendze/Projects/backend/dream_team_backend/Dream_Team_Assessment/Dream_Team_Assessment.csproj",
         "packagesPath": "/Users/keanuarendze/.nuget/packages/",
-        "outputPath": "/Users/keanuarendze/Projects/Dream_Team_Assessment/Dream_Team_Assessment/obj/",
+        "outputPath": "/Users/keanuarendze/Projects/backend/dream_team_backend/Dream_Team_Assessment/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/keanuarendze/.nuget/NuGet/NuGet.Config"
@@ -40,6 +40,30 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.13.1, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Microsoft.ApplicationInsights.EventCounterCollector": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Microsoft.ApplicationInsights.Profiler.AspNetCore": {
+              "target": "Package",
+              "version": "[2.7.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

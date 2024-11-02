@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Dream_Team_Assessment.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
  
 
 namespace Dream_Team_Assessment.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class StockController : ControllerBase
