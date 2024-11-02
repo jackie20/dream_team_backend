@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Dream_Team_Assessment.props" />
+</Project>
