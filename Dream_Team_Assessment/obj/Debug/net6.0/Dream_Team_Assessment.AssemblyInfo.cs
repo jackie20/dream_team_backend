@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dream_Team_Assessment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eabd2b183c64947e08bebc3433c17ebf6c95d5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dream_Team_Assessment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dream_Team_Assessment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
